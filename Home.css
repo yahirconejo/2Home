@@ -921,6 +921,13 @@ body {
         opacity: 0.5;
     }
 }
+#SliderCover{
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: calc(100% - 10px);
+	
+}
 
 #sliders{
     position: relative;
@@ -928,7 +935,7 @@ body {
     top: 10px;
     left:0;
     width: 3594px;
-    height: calc(100% - 10px); ;
+    height: calc(100% - 10px);
 }
 
 #Footer{
